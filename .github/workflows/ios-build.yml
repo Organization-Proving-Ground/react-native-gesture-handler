@@ -14,7 +14,7 @@ on:
 
 jobs:
   build:
-    if: github.repository == 'software-mansion/react-native-gesture-handler'
+    # if: github.repository == 'software-mansion/react-native-gesture-handler'
 
     runs-on: self-hosted
     strategy:
