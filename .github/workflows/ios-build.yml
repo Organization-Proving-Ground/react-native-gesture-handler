@@ -16,7 +16,7 @@ jobs:
   build:
     # if: github.repository == 'software-mansion/react-native-gesture-handler'
 
-    runs-on: self-hosted
+    runs-on: [self-hosted, macOS, ARM64]
     strategy:
       matrix:
         working-directory: [apps/basic-example, apps/expo-example]
